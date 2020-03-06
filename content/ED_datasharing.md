@@ -2,7 +2,6 @@
 
 ## Sommaire
 
-_Les liens ne sont pas cliquables dans le fichier PDF._
 
 <!-- MDTOC maxdepth:3 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
