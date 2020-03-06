@@ -10,18 +10,16 @@ Nature Research, Penny, D., Fane, B., Goodey, G., & Baynes, G. (2019). State of 
 
 ## Sommaire
 
-_Les liens ne sont pas cliquables dans le fichier PDF._
-
 <!-- MDTOC maxdepth:3 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Sommaire](#sommaire)   
 - [Quizz 1, enjeux du partage des données de recherche](#quizz-1-enjeux-du-partage-des-données-de-recherche)   
    - [A votre avis, à quelle fréquence les chercheurs mettent-ils à disposition des autres leurs données de façon ouverte?](#a-votre-avis-à-quelle-fréquence-les-chercheurs-mettent-ils-à-disposition-des-autres-leurs-données-de-façon-ouverte)   
-   - [Quels sont ou quels seraient vos problèmes et préoccupations concernant le partage de vos données ?](#quels-sont-ou-quels-seraient-vos-problèmes-et-préoccupations-concernant-le-partage-de-vos-données)   
-   - [Quelles circonstances vous inciteraient-elles à partager vos données ?](#quelles-circonstances-vous-inciteraient-elles-à-partager-vos-données)   
+   - [Quels sont ou quels seraient vos problèmes et préoccupations concernant le partage de vos données?](#quels-sont-ou-quels-seraient-vos-problèmes-et-préoccupations-concernant-le-partage-de-vos-données)   
+   - [Quelles circonstances vous inciteraient-elles à partager vos données?](#quelles-circonstances-vous-inciteraient-elles-à-partager-vos-données)   
 - [Quizz 2, réutiliser des données](#quizz-2-réutiliser-des-données)   
    - [A votre avis, quelle part des chercheurs ont-ils déjà réutilisé des données ouvertes?](#a-votre-avis-quelle-part-des-chercheurs-ont-ils-déjà-réutilisé-des-données-ouvertes)   
-   - [De quelle manière pensez-vous que les données partagées par d'autres vous ont été ou pourraient vous être utiles ?](#de-quelle-manière-pensez-vous-que-les-données-partagées-par-dautres-vous-ont-été-ou-pourraient-vous-être-utiles)   
+   - [De quelle manière pensez-vous que les données partagées par d'autres vous ont été ou pourraient vous être utiles?](#de-quelle-manière-pensez-vous-que-les-données-partagées-par-dautres-vous-ont-été-ou-pourraient-vous-être-utiles)   
 - [TP1, trouver des entrepôts de données](#tp1-trouver-des-entrepôts-de-données)   
 - [TP2, trouver et évaluer un jeu de données](#tp2-trouver-et-évaluer-un-jeu-de-données)   
    - [Recherche de données](#recherche-de-données)   
@@ -76,7 +74,7 @@ _réponses triées par fréquence_
 
 
 
-### Quels sont ou quels seraient vos problèmes et préoccupations concernant le partage de vos données ?
+### Quels sont ou quels seraient vos problèmes et préoccupations concernant le partage de vos données?
 
 _Plusieurs réponses possibles_
 
@@ -117,7 +115,7 @@ _n= 8423_
 
 
 
-### Quelles circonstances vous inciteraient-elles à partager vos données ?
+### Quelles circonstances vous inciteraient-elles à partager vos données?
 
 _Plusieurs réponses possibles_
 
@@ -146,7 +144,7 @@ _n = 6764_
 |**No** | 3215 | **47,5**|
 
 
-### De quelle manière pensez-vous que les données partagées par d'autres vous ont été ou pourraient vous être utiles ?
+### De quelle manière pensez-vous que les données partagées par d'autres vous ont été ou pourraient vous être utiles?
 
 _Plusieurs réponses possibles_
 
