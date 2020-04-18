@@ -1,6 +1,6 @@
 # _Data sharing_ : trouver, réutiliser et citer des données de recherche
 
-Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des données de recherche" à destination des doctorants de l'université de Bordeaux, le 2020-05-20 de 9h30 à 12h30.
+Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des données de recherche" à destination des doctorants de l'université de Bordeaux - durée 3h.
 
 Le matériel est composé des éléments suivants.
 
