@@ -6,7 +6,7 @@ Le matériel est composé des éléments suivants.
 
 * Document de cours - [au format .md](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.md) recommandé pour la consultation en ligne et [au format .pdf](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.pdf)
 * Ressources bibliographiques - [au format BibTex](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.bib) et [au format Zotero RDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.rdf)
-* Enoncé des TP et corrigé des quizz - :warning: Disponible après la formation <!--[au format .md](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.md) et [au format .pdf](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.pdf)-->
+* Enoncé des TP et corrigé des quizz - [au format .md](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.md) et [au format .pdf](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.pdf)
 
 _Le quizz est conçu pour être utilisé avec des boîtiers réponse._
 
