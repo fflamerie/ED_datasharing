@@ -4,13 +4,11 @@ Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des do
 
 Le matériel est composé des éléments suivants.
 
-* Document de cours - [au format .md](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.md) recommandé pour la consultation en ligne et [au format .pdf](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.pdf)
-* Ressources bibliographiques - [au format BibTex](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.bib) et [au format Zotero RDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.rdf)
-* Enoncé des TP et corrigé des quizz - [au format .md](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.md) et [au format .pdf](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.pdf)
+* COURS - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.pdf)
+* BIBLIO - [ressources bibliographiques au format BibTex](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.bib) et [ressources bibliographiques au format Zotero RDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.rdf)
+<!--* TP : énoncé des TP et corrigé des quizz - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.pdf)-->
 
-_Le quizz est conçu pour être utilisé avec des boîtiers réponse._
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Ces documents sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 3.0 France</a>.
+_Le quizz est conçu pour être utilisé avec des boîtiers réponse ou grâce à la fonctionnalité de sondage intégré à un système de visioconférence._
 
 ## Descriptif de la formation
 
@@ -34,3 +32,7 @@ _Le quizz est conçu pour être utilisé avec des boîtiers réponse._
 * Identifier des jeux de données pertinents pour son thème de recherche et évaluer dans quelle mesure ils sont faciles à trouver, accessibles, interopérables et réutilisables, c’est-à-dire conformes aux principes FAIR
 * Citer des données de recherche : contextes et modalités pratiques de la citation des données de recherche, du référencement en bibliographie à la rédaction d’un data availability statement
 * Identifier et comprendre les politiques des éditeurs de revue et des organismes de financement en matière de diffusion des données de recherche
+
+</br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Ces documents sont mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 3.0 France</a>.
