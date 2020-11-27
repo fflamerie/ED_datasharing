@@ -4,9 +4,10 @@ Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des do
 
 Le matériel est composé des éléments suivants.
 
-* COURS - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing.pdf)
+* COURS - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.pdf)
 * BIBLIO - [ressources bibliographiques au format BibTex](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.bib) et [ressources bibliographiques au format Zotero RDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.rdf)
-<!--* TP : énoncé des TP et corrigé des quizz - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_tp.pdf)-->
+* TP - énoncé des TP [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.pdf)
+* QUIZZ - énoncé des questions et corrigé :link: activé le 2020-12-02 <!-- [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.pdf)-->
 
 _Le quizz est conçu pour être utilisé avec des boîtiers réponse ou grâce à la fonctionnalité de sondage intégré à un système de visioconférence._
 
