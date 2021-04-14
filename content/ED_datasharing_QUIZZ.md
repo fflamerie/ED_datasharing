@@ -1,57 +1,27 @@
 # _Data sharing_ : trouver, réutiliser et citer des données de recherche : QUIZZ
 
-
 Pour toutes les questions des quizz, la source est l'enquête menée pour l'édition 2019 du rapport _State of Open Data_. Cette enquête a reçu 9500 réponses de chercheurs du monde entier.
 
 Digital Science, Fane, B., Ayris, P., Hahnel, M., Hrynaszkiewicz, I., Baynes, G., & Farrell, E. (2019). _The State of Open Data Report 2019_. Digital Science. https://doi.org/10.6084/m9.figshare.9980783.v2
 
 Nature Research, Penny, D., Fane, B., Goodey, G., & Baynes, G. (2019). State of Open Data 2019 [Data set]. In _Figshare_. https://doi.org/10.6084/m9.figshare.10011788.v2
 
-
 ## Quizz 1, enjeux du partage des données de recherche
 
-### A votre avis, à quelle fréquence les chercheurs mettent-ils à disposition des autres leurs données de façon ouverte?
+### Quelles circonstances vous inciteraient-elles à partager vos données?
 
-_Une seule réponse possible_
+_Plusieurs réponses possibles_
 
-* Toujours
-* La plupart du temps
-* Environ la moitié du temps
-* Parfois
-* Jamais
+* Exigence d'un financeur
+* Bénéfice public
+* Attente de mon domaine de recherche/d'une industrie
+* Augmentation de l'impact et de la visibilité de mes recherches
+* Autre (veuillez préciser)
+* Je ne partagerai jamais mes données
 
-![state_open_data_sharing_public](img/state_open_data_sharing_public.png)
+_What circumstances would motivate you to share your data?_
 
-_How often do you make data openly available to others?_
-
-_n = 6820_ - _réponses triées par fréquence_
-
-| Fréquence | Nombre de réponses | % des réponses |
-|:-- | --:| --:|
-|Parfois - _Sometimes_ | 2147  | **31** |
-|La plupart du temps - _Most of the time_ | 2036  | **30** |
-|Toujours - _Always_ | 1217  | 18 |
-|Jamais - _Never_  | 904  | 13 |
-|Environ la moitié du temps - _About half the time_ | 516  | 8 |
-
-L'enquête comportait également une question concernant la mise à disposition **dans un cadre privé**.
-
-![state_open_data_sharing_private](img/state_open_data_sharing_private.png)
-
-_How often do you make your research data privately available to others?_
-
-_n = 6805_
-
-_réponses triées par fréquence_
-
-| Fréquence| Nombre de réponses | % des réponses |
-|:-- | --:| --:|
-|Whenever requested  | 2493 | **37** |
-|Sometimes  | 2126 | 31 |
-|Most of the time | 1064 | 16 |
-|Never | 731 | **11**  |
-|About half of the time  | 391 | 6  |
-
+![state_open_data_sharing_motivations](img/state_open_data_sharing_motivations.png)
 
 ### Quels sont ou quels seraient vos problèmes et préoccupations concernant le partage de vos données?
 
@@ -93,34 +63,7 @@ _n= 8423_
 | **Je n'ai pas envie de partager mes données** -_I have no desire to share my data_ | 3|
 
 
-### Quelles circonstances vous inciteraient-elles à partager vos données?
-
-_Plusieurs réponses possibles_
-
-* Exigence d'un financeur
-* Bénéfice public
-* Attente de mon domaine de recherche/d'une industrie
-* Augmentation de l'impact et de la visibilité de mes recherches
-* Autre (veuillez préciser)
-* Je ne partagerai jamais mes données
-
-_What circumstances would motivate you to share your data?_
-
-![state_open_data_sharing_motivations](img/state_open_data_sharing_motivations.png)
-
 ## Quizz 2, réutiliser des données
-
-### A votre avis, quelle part des chercheurs ont-ils déjà réutilisé des données ouvertes?
-C'est-à-dire ont répondu "Oui" à la question suivante: _Have you ever reused open data?_
-
-_n = 6764_
-
-| Modalité de réponse| Nombre de réponses| % des réponses |
-|:-- | --:|--:|
-|Yes|3117|46|
-|I don't know|432|6,5|
-|**No** | 3215 | **47,5**|
-
 
 ### De quelle manière pensez-vous que les données partagées par d'autres vous ont été ou pourraient vous être utiles?
 

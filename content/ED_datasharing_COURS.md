@@ -3,33 +3,16 @@
 ## Sommaire
 
 
-<!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+<!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Sommaire](#sommaire)   
 - [1. Introduction](#1-introduction)   
-   - [Que sont pour vous les "données de recherche" et comment les partagez-vous?](#que-sont-pour-vous-les-données-de-recherche-et-comment-les-partagez-vous)   
-   - [Modes de partage des données de recherche](#modes-de-partage-des-données-de-recherche)   
-   - [Terminologie](#terminologie)   
-   - [Enjeux](#enjeux)   
-- [2. Comment chercher des données de recherche?](#2-comment-chercher-des-données-de-recherche)   
-   - [Méthode 1, fonctionnalités intégrées aux bases bibliographiques](#méthode-1-fonctionnalités-intégrées-aux-bases-bibliographiques)   
-   - [Méthode 2, les outils de recherche spécialisés](#méthode-2-les-outils-de-recherche-spécialisés)   
-   - [Méthode 3, interroger directement un entrepôt de données](#méthode-3-interroger-directement-un-entrepôt-de-données)   
-   - [Quelle démarche pour identifier un entrepôt de données approprié?](#quelle-démarche-pour-identifier-un-entrepôt-de-données-approprié)   
-   - [TP1, trouver des entrepôts de données](#tp1-trouver-des-entrepôts-de-données)   
-- [3. Trouver des jeux de données existants](#3-trouver-des-jeux-de-données-existants)   
-   - [Réutiliser des données?](#réutiliser-des-données)   
-   - [TP2, trouver et évaluer un jeu de données](#tp2-trouver-et-évaluer-un-jeu-de-données)   
-   - [Focus sur les principes FAIR](#focus-sur-les-principes-fair)   
-- [4. Citer des données de recherche](#4-citer-des-données-de-recherche)   
-   - [Citation en bibliographie](#citation-en-bibliographie)   
-   - [Data availability statement](#data-availability-statement)   
-- [5. Politiques de données des éditeurs et des organismes de financement de la recherche](#5-politiques-de-données-des-éditeurs-et-des-organismes-de-financement-de-la-recherche)   
-   - [Editeurs](#editeurs)   
-   - [Organismes de financement](#organismes-de-financement)   
-- [6. Conclusion](#6-conclusion)   
-   - [Rappel des enjeux, en image](#rappel-des-enjeux-en-image)   
-   - [La grande image de la science ouverte](#la-grande-image-de-la-science-ouverte)   
+- [2. Trouver des données de recherche avec les outils bibliographiques](#2-trouver-des-données-de-recherche-avec-les-outils-bibliographiques)   
+- [3. Trouver des données de recherche grâce aux entrepôts de données](#3-trouver-des-données-de-recherche-grâce-aux-entrepôts-de-données)   
+- [4. Trouver des données de recherche pour les réutiliser](#4-trouver-des-données-de-recherche-pour-les-réutiliser)   
+- [5. Citer des données de recherche](#5-citer-des-données-de-recherche)   
+- [6. Politiques de données des éditeurs et des organismes de financement de la recherche](#6-politiques-de-données-des-éditeurs-et-des-organismes-de-financement-de-la-recherche)   
+- [7. Conclusion](#7-conclusion)   
 
 <!-- /MDTOC -->
 
@@ -89,16 +72,11 @@ Ces deux définitions sont tirées du [glossaire](https://book.fosteropenscience
 Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). _Open Science Training Handbook_. FOSTER Plus Consortium. https://book.fosteropenscience.eu/
 
 ### Enjeux
-![question][quest] Quizz 1 : enjeux du partage des données de recherche
+![question][quest] Quizz 1 : freins et motivations au partage des données de recherche
 
+## 2. Trouver des données de recherche avec les outils bibliographiques
 
-## 2. Comment chercher des données de recherche?
-
-![question][quest] Comment procédez-vous actuellement pour chercher des donnés existantes?
-
-🔇 Si vous n'avez pas de micro, répondez dans la conversation Zoom.
-
-On peut distinguer au moins 3 méthodes.
+On peut distinguer au moins 3 méthodes pour trouver des données de recherche. Dans cette partie nous abordons les 2 premières, la troisième fait l'objet de la partie suivante.
 
 * Méthode 1 : utiliser les fonctionnalités intégrées aux **bases de données bibliographiques**, par exemple Scopus et PubMed.
 * Méthode 2 : interroger les **outils de recherche spécialisés** qu'il s'agisse de moteurs de recherche comme DataCite Search ou d'index de base de données (Data Index du Web of Science).
@@ -113,6 +91,7 @@ Dans la nouvelle interface de **[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?ot
 Dans **[Scopus](http://docelec.u-bordeaux.fr/login?url=http://www.scopus.com)**, il s'agit de l'encart _Related Research Data_, accessible depuis la notice d'un article en particulier. Cette fonctionnalité est donc très limitée, puisqu'elle ne permet pas de sélectionner un ensemble d'articles ayant des données associées.
 
 Le **type de publication** peut également être exploité comme critère de recherche ou de filtre. Il permet en effet d'identifier les articles de données, ou _data papers_. Les valeurs associées diffèrent en fonction des bases de données.
+
 * Scopus -> choisir la valeur _data paper_
 * PubMed -> choisir la valeur _dataset_
 
@@ -235,7 +214,22 @@ D'autres services indexent des données et peuvent être utiles pour identifier 
 * [Isidore](https://isidore.science/) : spécialisé pour les sciences humaines et sociales, le moteur de recherche d'HumaNum permet de formuler des recherches ciblées sur les données, notamment grâce au critère "Par type de document" > "Données d'enquêtes", "Autres", etc.
 * [Bielefeld academic search engine](https://www.de.base-search.net/) : le moteur de recherche de l'université de Bielefeld  permet de cibler des recherches sur les données, notamment grâce au critère "Type de document" > "Dataset", "Unknown", etc.
 
-### Méthode 3, interroger directement un entrepôt de données
+### TP1, trouver des données avec les bases de données bibliographiques et les moteurs de recherche spécialisés
+
+![exe][exe]
+
+A l'aide de l'une des deux méthodes présentées, cherchez des données pertinentes pour votre domaine de recherche.
+
+✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
+
+* Identifiant des données trouvées (DOI et URL si possible)
+* Sont-elles indépendantes ou liées à une publication (article, thèse, etc.)?
+* Sur quel site ces données sont-elles disponibles?
+* Avec quel outil de recherche les avez-vous trouvées?
+
+🕰️ Rendez-vous dans **15 minutes** pour une mise en commun.
+
+## 3. Trouver des données de recherche grâce aux entrepôts de données
 
 Cette méthode rejoint les astuces 2, 4 et 8 des 11 astuces recensées ci-dessous.
 
@@ -274,68 +268,54 @@ Interroger directement un entrepôt de données peut notamment permettre de bén
 
 ![fleche][fleche] Cela implique au préalable d'identifier les entrepôts de données appropriés.
 
-### Quelle démarche pour identifier un entrepôt de données approprié?
+### Entrepôts de données généralistes et spécialisés
 
-#### Suivre les pratiques de votre communauté
+Voici quelques exemples de jeux de données déposées dans des entrepôts de données généralistes et spécialisés.
 
-Privilégier un entrepôt spécialisé pour votre discipline, ou l'entrepôt généraliste utilisé par votre communauté.
+Quelles différences observez-vous entre eux?
 
-#### Suivre les recommandations ou obligations
+#### Exemple 1
 
-Ces recommandations ou ces obligations peuvent émaner de différentes parties prenantes.
+**Dépôt dans [Zenodo](https://zenodo.org)**
 
-* D'un financeur : [ERC - European Research Council](https://erc.europa.eu/sites/default/files/document/file/ERC_info_document-Open_Research_Data_and_Data_Management_Plans.pdf), [Fonds national suisse pour la recherche scientifique](http://www.snf.ch/SiteCollectionDocuments/FAIR_data_repositories_examples.pdf)
-* D'un éditeur : [PLoS](https://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories), [Springer Nature](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124)
-
-#### Identifier des critères importants et les hiérarchiser
-
-Voici quelques exemples de critère qui peuvent être pris en compte.
-
-* L'entrepôt est-il **certifié**?
-
-En savoir plus sur la certification _CoreTrustSeal_ :
-
-RDA France. (2019). _Entrepôts de données de confiance : Critères de conformité_. https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf
-
-* L'entrepôt prend-il en charge un **format de données** particulier?
-
-* Quelles sont les exigences ou possibilités en termes de **précision et structuration de la description des données déposées**? Pourrez-vous trouver des jeux de données finement décrits grâce des métadonnées riches? Ou même **interroger directement les données**? Voici quelques exemples de jeux de données, de la description la plus sommaire à la plus complète.
-
-**> Exemple 1a : dépôt dans [Zenodo](https://zenodo.org) - données liées à un article**
-
-Alccayhuaman, K. A. A., Soto-Peñaloza, D., Nakajima, Y., Papageorgiou, S. N., Botticelli, D., & Lang, N. P. (2018). Biological and technical complications of tilted implants in comparison to straight implants supporting fixed dental prostheses : A systematic review and meta-analysis [Data set]. In _Zenodo_. https://doi.org/10.5281/zenodo.1175004
-
-**> Exemple 1b : dépôt dans [Zenodo](https://zenodo.org) - versions multiples dont certaines sous embargo**
-
-Nath, E., Cannon, P., & Philipp, M. (2017). The influence of social presence on facial affective responses to food images (FSC) [Data set]. In _Zenodo_. https://doi.org/10.5281/zenodo.1001822
-
-**> Exemple 2 : dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
-
-Plomp, E., Von Holstein, I., Koornneef, J., & Davies, G. (2019). Neodymium and strontium isotope analysis of modern human dental enamel using Thermal Ionization Mass Spectrometry (TIMS) [Data set]. In _4TU.Centre for Research Data_. https://doi.org/10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111
-
-**> Exemple 3 : dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
-
-Haberle, S., Hopf, F., Tng, D., Johnston, F., & Bowman, D. (2014). Weekly pollen count data for for the University of Tasmania, Hobart. [Data set]. In _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
-
-##### Ressources complémentaires
-
-DoRANum. (2018). _Du choix de l’entrepôt au dépôt des données_. DoRANum. https://doranum.fr/depot-entrepots/choix-entrepot-depot-donnees/
-
-_Cette infographie interactive guide la démarche de choix d'un entrepôt en regroupant les critères en trois sous-ensembles de caractéristiques, celles liées **aux données**, **au partage** et **à l'entrepôt**._
-
-Whyte, A. (2016). _Where to keep research data_ (v. 1.1 ; DCC How-to Guides). Digital Curation Centre. http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data#3
-
-_Pour chacune des questions, le guide définit 3 niveaux de capacité de service. Il met en avant également des points à considérer pour chacune des questions._
-
-> The checklist that follows addresses the five key questions posed in this guide:
-> 1. is the repository reputable?
-> 2. will it take the data you want to deposit?
-> 3. will it be safe in legal terms?
-> 4. will the repository sustain the data value?
-> 5. will it support analysis and track data usage?
+Reviers, N., Aline, R., & Vandekerckhove, R. (2017). Dutch Audio Description Corpus [Data set].  _Zenodo_. https://doi.org/10.5281/zenodo.1035175
 
 
-#### Trouver un entrepôt de données avec re3data
+#### Exemple 2 - spectrométrie
+
+**Dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
+
+Plomp, E., Von Holstein, I., Koornneef, J., & Davies, G. (2019). Neodymium and strontium isotope analysis of modern human dental enamel using Thermal Ionization Mass Spectrometry (TIMS) [Data set]. _4TU.Centre for Research Data_. https://doi.org/10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111
+
+#### Exemple 3 - psychologie
+
+**Dépôt dans [UK Data Archive ReShare](https://reshare.ukdataservice.ac.uk)**
+
+Biggart, L. P. (2016). Emotional intelligence in social work [Data set].  _UK Data Archive ReShare_. https://doi.org/10.5255/UKDA-SN-852431
+
+#### Exemple 4 - linguistique
+
+**Dépôt dans [TROLLing](https://dataverse.no/dataverse/trolling) (TROLLing = The Tromsø Repository of Language and Linguistics)**
+
+Rainsford, T. (2020). Table of transcribed forms for : Syllable Structure and Prosodic Words in Old French [Data set]. _The Tromsø Repository of Language and Linguistics (TROLLing)_. https://doi.org/10.18710/xymxpc
+
+#### Exemple 5 - écologie
+
+**Dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
+
+Haberle, S. et al. (2014). Weekly pollen count data for for the University of Tasmania, Hobart [Data set]. _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
+
+
+### Identifier un entrepôt de données spécialisé pertinent
+
+La démarche pour identifier un entrepôt de données approprié pour **déposer** des données est détaillée dans le support de formation [Zenodo, Figshare, etc.: rechercher et partager des données de recherche grâce aux entrepôts de données](https://github.com/fflamerie/atBU_entrepots_donnees).
+
+Pour un aperçu concernant les entrepôts de données **généralistes**, vous pouvez tester notre outil en ligne d'aide à la décision [Trouver un entrepôt de données](http://busec2.u-bordeaux.fr/aide-choix-entrepot).
+
+On se focalise ici sur la recherche d'un entrepôt de données dans la perspective de trouver des données existantes et non d'en déposer.
+Aussi nous nous concentrons sur la recherche d'entrepôts **spécialisés**, pouvant offrir des fonctionnalités de recherche spécifiques, ou dont la couverture spécialisée permet de limiter le bruit. Parmi les outils mentionnés dans le support de formation précédemment cité, nous retenons l'annuaire [re3data](https://www.re3data.org/).
+
+### Trouver un entrepôt de données avec re3data
 
 Registry of Research Data Repositories. https://doi.org/10.17616/R3D // citation simplifiée : re3data - https://www.re3data.org/
 
@@ -346,7 +326,7 @@ On peut naviguer dans re3data par :
 * [type de contenu](https://www.re3data.org/browse/by-content-type/),
 * [pays](https://www.re3data.org/browse/by-country/).
 
-![fleche][fleche] [Afficher la liste complète des entrepôts référencés dans re3data](https://www.re3data.org/search?query=)
+👉  [Afficher la liste complète des entrepôts référencés dans re3data](https://www.re3data.org/search?query=)
 
 De nombreux filtres permettent ensuite d'affiner les listes de résultats, en fonction par exemple des critères suivants.
 
@@ -357,85 +337,24 @@ De nombreux filtres permettent ensuite d'affiner les listes de résultats, en fo
   * **Data upload** : accès à la soumission de données : sous quelles conditions un utilisateur peut-il soumettre des données ?
 * **Versioning** : les jeux de données peuvent-ils être versionnés?
 
-#### Outils complémentaires
-
-Des services d'aide au choix et à la décision ont été développés, principalement à partir des données de re3data, et proposent des fonctionnalités supplémentaires.
-
-![roue][roue]
-
-##### FAIRsharing.org
-
-[FAIRsharing.org](https://fairsharing.org/) répertorie non seulement des entrepôts mais également des **standards**, des **méthodes**, des **vocabulaires**, etc. Pour chaque ressource sont notamment spécifiés les critères suivants.
-
- * Le **statut** : en développement / opérationnel / incertain / déprécié
- * La **recommandation** : nom de l'éditeur, de la revue, etc. qui recommande
-
-En savoir plus concernant FAIRsharing :
-
-Sansone, S.-A., McQuilton, P., Rocca-Serra, P., Gonzalez-Beltran, A., Izzo, M., Lister, A. L., & Thurston, M. (2019). FAIRsharing as a community approach to standards, repositories and policies. _Nature Biotechnology_, _37_(4), 358‑367. https://doi.org/10.1038/s41587-019-0080-8
-
-![roue][roue]
-
-##### Data Repository Finder (Univ. Utrecht)
-[Data Repository Finder](https://tools.uu.nl/repository-decision-tool/) se présente sous la forme d'un formulaire web. En fonction de la réponse "Oui" ou "Pas nécessairement" apportée par l'utilisateur aux 4 questions suivantes, les entrepôts proposés restent affichés ou deviennent grisés. Une brève fiche descriptive est associée à chaque entrepôt de données.
-
-* **Questions**
-  * Are you looking for a repository managed by Utrecht University?
-  * Will you publish data under access restriction?
-  * Are you looking for a repository with the option to deposit for free?
-  * Do you wish to have the freedom to choose your own data usage licence?
-
-* **Entrepôts de données généralistes utilisés par ce service**
-  * [4TU.ResearchData](https://data.4tu.nl/)
-  * [(DANS) EASY](https://easy.dans.knaw.nl/ui/home)
-  * [DataverseNL](https://dataverse.nl/)
-  * [Dryad](http://www.datadryad.org/)
-  * [Mendeley Data](https://data.mendeley.com/)
-  * [Open Science Framework (OSF)](https://osf.io/)
-  * [Yoda](https://public.yoda.uu.nl/) (entrepôt de données institutionnel de l'univ. d'Utrecht)
-  * [Zenodo](https://zenodo.org/).
-
-
-![roue][roue]
-
-##### Data Deposit Recommendation Service
-[Data Deposit Recommendation Service](https://ddrs-dev.dariah.eu/ddrs/) est développé par [l'infrastructure DARIAH](https://www.dariah.eu/) et spécialisé pour les **sciences humaines**. Il utilise les données de re3data. 2 critères peuvent être spécifiés:
-
-* le pays - > choisir _European Union_ pour obtenir des réponses satisfaisantes,
-* la discipline.
-
-Pour certains entrepôts, il est possible de soumettre une demande de dépôt à partir de la fiche de cet entrepôt, par exemple [CLARIN-ERIC](https://ddrs-dev.dariah.eu/ddrs/selectRepository?id=100010209).
-
-![roue][roue]
-
-##### Repository Finder (DataCite)
-[Repository Finder](https://repositoryfinder.datacite.org/) est développé dans le cadre du [projet Enabling FAIR Data](http://www.copdess.org/enabling-fair-data-project/), porté par la _Coalition for Publishing Data in the Earth and Space Sciences_. Il permet d'identifier un entrepôt référencé dans re3data ou parmi les 208 entrepôts sélectionnés par le projet.
-
-Ce service diffère des 2 précédents dans la mesure où on ne spécifie pas de critères de choix.
-
-### TP1, trouver des entrepôts de données
+### TP2, trouver un entrepôt de données spécialisé avec re3data
 
 ![exe][exe]
 
-A partir des services et outils mentionnés précédemment, il s'agit d'identifier un ou plusieurs entrepôts de données pertinents pour votre domaine de recherche.
-
-Si vous ne trouvez pas d'entrepôt spécifique pour votre domaine de recherche, consultez les fiches re3data et interrogez sommairement les 3 entrepôts de données généralistes suivants.
-
 URL re3data : https://www.re3data.org/
 
-* **Zenodo** : https://zenodo.org/
-* **Dryad** : http://www.datadryad.org/
-* **B2SHARE** : https://b2share.eudat.eu/
+Effectuez une recherche dans re3data pour trouver un entrepôt de données spécialisé pertinent pour votre domaine de recherche.
 
-Les utiliseriez-vous? Pourquoi?
+Confirmez votre choix en consultant quelques jeux de données déposés dans cet entrepôt.
 
-Quelles différences repérez-vous entre ces 3 entrepôts?
+✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
 
-🕰️ Rendez-vous dans **20 minutes** pour une mise en commun.
+* Nom et URL de l'entrepôt de données
+* Si vous avez trouvé plusieurs entrepôts, pourquoi choisissez-vous celui mentionné en réponse à la question précédente?
 
-🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, saisissez votre retour  dans la conversation Zoom.
+🕰️ Rendez-vous dans **15 minutes** pour une mise en commun.
 
-## 3. Trouver des jeux de données existants
+## 4. Trouver des données de recherche pour les réutiliser
 
 Nous allons aborder ici les astuces 1 et 6 de l'article "Elevn quick tips..." précédemment cité.
 
@@ -451,35 +370,32 @@ Nous allons aborder ici les astuces 1 et 6 de l'article "Elevn quick tips..." pr
 
 ![question][quest] Quizz 2
 
-### TP2, trouver et évaluer un jeu de données
+### TP3, trouver et évaluer un jeu de données
 
-#### Recherche de données
-
-A partir des services et outils mentionnés précédemment, il s'agit d'identifier des données ou des jeux de données pertinents pour votre projet de recherche.
-
-Comment procédez-vous?
-Parmi tous ces services et outils, lesquels utilisez-vous?
+En reprenant ou en combinant une ou plusieurs des 3 méthodes de recherche de données présentées, il s'agit d'identifier des données ou des jeux de données que vous pourriez réutiliser pour l'un de vos projets de recherche.
 
 **/!\\** Vous pouvez retenir des données non librement accessibles, pour lesquelles seule la description est librement accessible.
 
-#### Evaluation des données trouvées
-
 Une fois identifié un jeu de données qui vous semble pertinent, considérez les points suivants.
 
-* Pensez-vous que ce jeu de données puisse vous être utile? Pourquoi?
-* Les **métadonnées** sont-elles suffisantes? La **documentation** (fichier README, etc.) vous paraît-elle suffisante?
+* Dans quel objectif réutiliseriez-vous ce jeu de données?
+* Les **métadonnées** sont-elles suffisantes?
+* La **documentation** (fichier README, etc.) vous paraît-elle suffisante?
 * Qu'en est-il de la licence de publication? Les conditions de **réutilisation** sont-elles claires?
 * Sauriez-vous comment **citer** ce jeu de données?
 
-![fleche](img/foster_icone_arrow.png) Allez plus loin : calculez le score FAIR (Findable, Accessible, Interoperable, Reusable) de ce jeu de données avec le service en ligne suivant.
+👉 Allez plus loin : calculez le score FAIR (Findable, Accessible, Interoperable, Reusable) de ce jeu de données avec le service en ligne suivant.
 
 Australian Research Data Commons. (s. d.). _FAIR self-assessment tool_. Australian Research Data Commons. https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/
 
 **/!\\** Concentrez-vous sur les lettres F, A et R
 
-🕰️ Rendez-vous dans **30 minutes** pour une mise en commun.
+✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
 
-🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, saisissez votre retour  dans la conversation Zoom.
+* Identifiant des données trouvées (DOI et URL si possible)
+* Appréciation concernant le caractère réutilisable ou FAIR : au minimum sous la forme `-1 ` / `+1 ` - 👎 / 👍
+
+🕰️ Rendez-vous dans **30 minutes** pour une mise en commun.
 
 ### Focus sur les principes FAIR
 
@@ -557,7 +473,7 @@ Ainsi des données peuvent être **FAIR mais non ouvertes**, si elles appliquent
 
 Des données peuvent être **ouvertes mais non FAIR**, si elles sont mises à disposition publiquement, mais sont dépourvues d’une documentation suffisante ou d’une licence précisant clairement les conditions de réutilisation.
 
-## 4. Citer des données de recherche
+## 5. Citer des données de recherche
 
 Cela correspond à l'un des 3 éléments de l'astuce 11 de l'article "Eleven quick tips..." cité précédemment.
 
@@ -603,6 +519,7 @@ La bibliographie ou la liste des références citées n'est pas la seule rubriqu
 Le _data availability statement_ ou _data access statement_ décrit où les données sous-jacentes à l'article peuvent être trouvées, et sous quelles conditions elles sont accessibles.
 
 L'université de Manchester propose plusieurs exemples de formulation pour prendre en compte les cas suivants :
+
 * données en accès ouvert,
 * analyse secondaire de données existantes,
 * contraintes éthiques,
@@ -623,7 +540,7 @@ L'ordre et la nature des informations à mentionner peuvent varier en fonction d
 
 Springer Nature. (s. d.). _Data availability statements_. Springer Nature. http://www.springernature.com/gp/authors/research-data-policy/data-availability-statements/12330880
 
-## 5. Politiques de données des éditeurs et des organismes de financement de la recherche
+## 6. Politiques de données des éditeurs et des organismes de financement de la recherche
 
 ![brain][brain]
 
@@ -671,7 +588,7 @@ _Nota Bene_ : les organismes de financement privés (les fondations) ont égalem
 Carnegie Mellon University Libraries. (s. d.). _Public access mandates & policies : US private funders_. Carnegie Mellon University Libraries. https://www.library.cmu.edu/datapub/sc/publicaccess/policies/usprivatefunders
 
 
-## 6. Conclusion
+## 7. Conclusion
 
 Reprenons la conclusion de l'article
 
