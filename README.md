@@ -5,7 +5,6 @@ Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des do
 Le matériel est composé des éléments suivants.
 
 * COURS - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.pdf)
-* BIBLIO - [ressources bibliographiques au format BibTex](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.bib) et [ressources bibliographiques au format Zotero RDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_biblio.rdf)
 * TP - énoncé des TP [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.pdf)
 * QUIZZ - énoncé des questions et corrigé [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_QUIZZ.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_QUIZZ.pdf)
 
