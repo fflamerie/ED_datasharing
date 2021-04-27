@@ -45,7 +45,6 @@ Détaillons les modes de partage des données, pour synthétiser les atouts et l
 
 Adapté de : Llebot, C. (s. d.). _Research Data Services : Sharing Your Data_. Oregon State University Libraries. https://guides.library.oregonstate.edu/research-data-services/data-sharing
 
-![fleche][fleche] Pour la suite de l'atelier, nous allons surtout considérer les **entrepôts de données**.
 
 ### Terminologie
 
@@ -80,7 +79,7 @@ On peut distinguer au moins 3 méthodes pour trouver des données de recherche. 
 
 * Méthode 1 : utiliser les fonctionnalités intégrées aux **bases de données bibliographiques**, par exemple Scopus et PubMed.
 * Méthode 2 : interroger les **outils de recherche spécialisés** qu'il s'agisse de moteurs de recherche comme DataCite Search ou d'index de base de données (Data Index du Web of Science).
-* Méthode 3 : utiliser les **entrepôts de données**, **généralistes**  (tels que Zenodo, Dryad ou Figshare) ou **spécialisés** (tels que Harvard Dataverse ou 4TU.ResearchData).
+* Méthode 3 : utiliser les **entrepôts de données**, **généralistes**  (tels que Zenodo, Dryad ou Figshare) ou **spécialisés**.
 
 ### Méthode 1, fonctionnalités intégrées aux bases bibliographiques
 
@@ -191,7 +190,7 @@ Pour les données de recherche, seuls les objets de type _dataset_ dans les sour
 La restriction affichée aux seuls "jeux de données" n'est de fait pas entièrement exacte, car :
 
 * les fichiers de données supplémentaires sont indexés à l'unité ;
-* le type _dataset_ n'est pas appliqué uniformément par tous les entrepôts de données.Certains peuvent l'utiliser pour des fichiers de données unitaires non organisés en un jeu de données - exemple :
+* le type _dataset_ n'est pas appliqué uniformément par tous les entrepôts de données. Certains peuvent l'utiliser pour des fichiers de données unitaires non organisés en un jeu de données - exemple :
 
 Sordello, R., Flamerie, F., Livoreil, B., & Vanpeene, S. (2019). MOESM4 of Evidence of the environmental impact of noise pollution on biodiversity : A systematic map protocol [Data set]. In _Figshare_. https://doi.org/10.6084/m9.figshare.7711562.v1
 
@@ -266,7 +265,7 @@ Gregory, K., Khalsa, S. J., Michener, W. K., Psomopoulos, F. E., Waard, A. de, &
 
 Interroger directement un entrepôt de données peut notamment permettre de bénéficier de fonctionnalités de recherche spécifiques.
 
-![fleche][fleche] Cela implique au préalable d'identifier les entrepôts de données appropriés.
+👉 Cela implique au préalable d'identifier les entrepôts de données appropriés.
 
 ### Entrepôts de données généralistes et spécialisés
 
@@ -350,13 +349,13 @@ Confirmez votre choix en consultant quelques jeux de données déposés dans cet
 ✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
 
 * Nom et URL de l'entrepôt de données
-* Si vous avez trouvé plusieurs entrepôts, pourquoi choisissez-vous celui mentionné en réponse à la question précédente?
+* Si vous avez trouvé plusieurs entrepôts, pourquoi privilégiez-vous celui mentionné en réponse à la question précédente?
 
 🕰️ Rendez-vous dans **15 minutes** pour une mise en commun.
 
 ## 4. Trouver des données de recherche pour les réutiliser
 
-Nous allons aborder ici les astuces 1 et 6 de l'article "Elevn quick tips..." précédemment cité.
+Nous allons aborder ici les astuces 1 et 6 de l'article "Eleven quick tips..." précédemment cité.
 
 > Tip 1: Think about the data you need and why you need them.
 >
