@@ -2,13 +2,13 @@
 
 Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des données de recherche" à destination des doctorants de l'université de Bordeaux - durée 3h.
 
-Le matériel est composé des éléments suivants.
+## Cours
+* [COURS - au format HTML](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) 
+* [COURS- au format PDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.pdf)
 
-* COURS - [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.pdf)
-* TP - énoncé des TP [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.pdf)
-* QUIZZ - énoncé des questions et corrigé [au format html pour la consultation en ligne](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_QUIZZ.md) et [au format pdf pour le téléchargement](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_QUIZZ.pdf)
 
-_Le quizz est conçu pour être utilisé avec des boîtiers réponse ou grâce à la fonctionnalité de sondage intégré à un système de visioconférence._
+## Exercices
+* [TP - énoncé au format HMTL](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md) 
 
 ## Descriptif de la formation
 
