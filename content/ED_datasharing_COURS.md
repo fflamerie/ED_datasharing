@@ -18,60 +18,124 @@
 
 <div style="page-break-after: always;"></div>
 
+## 0. Tour de table
+
+* Dans quel laboratoire travaillez-vous?
+* Quelles sont vos attentes pour le stage?
+
 ## 1. Introduction
 
-### Que sont pour vous les "données de recherche" et comment les partagez-vous?
+### Définition et typologie des données de recherche
 
-![exe][exe] Nous prenons quelques minutes pour préparer ce tour de table.
+On devrait plutôt utiliser le pluriel pour les termes "définition" et "typologie", car plusieurs approches sont possibles.
 
-1. Pouvez-vous réfléchir à propos du dernier article que vous avez lu/écrit : quel était le matériel supplémentaire (tableaux, figures, etc.)?
+L'OCDE donne ainsi une définition très large des données de recherche.
 
-2. Pouvez-vous noter des **exemples** et des types de données de recherche pertinents pour votre domaine de recherche?
+> Enregistrements factuels (chiffres, textes, images et sons), qui sont utilisés comme sources principales pour la recherche scientifique et sont généralement reconnus par la communauté scientifique comme nécessaires pour valider des résultats de recherche.
 
-3. Quels **modes de partage** des fichiers de données sont-ils utilisés dans votre domaine?
+Source: Organisation de coopération et de développement économiques. (2007). Principes et lignes directrices de l’OCDE pour l’accès aux  données de la recherche financée sur fonds publics. Organisation de coopération et de développement économiques. https://doi.org/10.1787/9789264034020-en-fr
 
-🔇 Si vous n'avez pas de micro, répondez dans la conversation Zoom.
+On trouve aussi des définitions plus restrictives, variables en fonction des domaines scientifiques, du contexte, etc.
+
+Ainsi le NIH (National Institue of Health) fournit-il la définition suivante dans le cadre de ses appels à projet.
+
+> “**Scientific Data**: The recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications. Scientific data do not include laboratory notebooks, preliminary analyses, completed case report forms, drafts of scientific papers, plans for future research, peer reviews, communications with colleagues, or physical objects, such as laboratory specimens.”
+
+Source: National Institutes of Health. (2021). NOT-OD-21-013 : Final NIH Policy for Data Management and Sharing. https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html
+
+
+S'agissant des types de données, on retient les grandes catégories suivantes. A noter que le type de données peut aussi s'envisager du point de vue de l'achèvement.
+
+* Données d'observation
+* Données expérimentales
+* Données de références
+* Données de simulation numériques
+* Données dérivées ou compilées
+
+Fiche pratique d'1 page :
+
+Bracco, L., Bouchet-Moneret, F., & Jouneau, T. (2021). Que sont les données de la recherche ? https://doi.org/10.5281/zenodo.5495210
+
 
 ### Modes de partage des données de recherche
 
-Détaillons les modes de partage des données, pour synthétiser les atouts et les limites de chacun d'eux.
+Voici quelques exemples de différents modes de partage des données de recherche.
 
-| Méthode       | Avantage     | Inconvénient     |
-| :------------- | :---------- | ----------- |
-|  Publier les données sur un **site web** (d'un projet, d'un laboratoire, etc.) | Les données sont facilement accessibles pour les autres </br> </br>Dissémination plus large de la recherche  | Requiert une maintenance de la part du groupe de recherche </br></br> Pas de contrôle sur qui accède aux données </br></br> Incapacité à attribuer un DOI ou un autre identifiant pérenne au jeu de données   |
-| Soumettre les données à une **revue** ou publier un **article de données** ou _data paper_ 	| Les données sont associées à l'article publié au sujet de ces données </br></br> Les données sont partagées avec les pairs | Les données peuvent ne pas donner lieu à un article mais devoir quand même être partagées </br></br> En fonction de la revue, l'accès peut être restreint aux chercheurs bénéficiant d'un abonnement à la revue|
-| Répondre aux **demandes** de données 	| Conserver le contrôle sur qui utilise les données 	| Accès très limité aux données </br></br> Peut ne pas être une méthode acceptable pour les agences de financement </br></br> Peut être chronophage	|
-| Déposer les données dans un **entrepôt de données** | En fonction des entrepôts, accès paramétrable : fermé >> restreint >> sous embargo >> ouvert </br></br> Ne requiert aucune maintenance par le groupe de recherche </br></br> Capacité à attribuer un DOI ou un autre identifiant pérenne au jeu de données </br></br> Les données sont partagées avec les pairs | Les limitations peuvent varier en fonction des entrepôts : soumission limitée à certains utilisateurs, soumission payante, nécessité de respecter un format de données et/ou de métadonnées, etc. |
+* Répondre manuellement à des demandes.
 
-Adapté de : Llebot, C. (s. d.). _Research Data Services : Sharing Your Data_. Oregon State University Libraries. https://guides.library.oregonstate.edu/research-data-services/data-sharing
+![image_data_avail_statement](img/data_demand.png)
 
+Afficher cet exemple en ligne : https://doi.org/10.1186/s12888-020-03010-3
 
-### Terminologie
+* Annexer à un article des fichiers de _Supplementary data_, publiés sur le site de l’éditeur en même temps que l’article
 
-Avant de poursuivre, fixons quelques éléments de terminologie.
+* Déposer les données dans un entrepôt de données
 
-#### Données de recherche
+![image1_entrepot_donnees](img/dryad_dataset.png)
 
-> **Data**
->
-> Data in the sense used here are all digitally available objects (simple or complex) that emerge or are the result of the research process.
+Afficher cet exemple en ligne : https://doi.org/10.5255/UKDA-SN-852431
 
-_On entend ici par données tous les objets (simples ou complexes) disponibles sous forme numérique qui émergent ou sont le résultat du processus de recherche._
+![question][quest]
 
-#### Entrepôt de données
+Parmi les modes de partage des données ci-dessous, lequel vous semble-t-il le plus fréquent?
 
-> **Repository**
->
-> Repository is defined as the infrastructure and corresponding service that allows for the persistent, efficient and sustainable storage of digital objects (such as documents, data and code).
+* Fichiers supplémentaires à un article scientifique
+* Dépôt dans un entrepôt de données accessible publiquement
+* Privé, sur demande
+* Autre
+* Aucun partage
 
-_Un entrepôt est défini comme l'infrastructure et le service correspondant qui permet le stockage persistant, fiable et durable des objets numériques (tels que les documents, les données et le code)._
+![question][quest]
 
-Ces deux définitions sont tirées du [glossaire](https://book.fosteropenscience.eu/en/06Glossary/) du livre suivant.
+Quels avantages et quelles limites associez-vous à chacun d’entre eux?
 
-Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). _Open Science Training Handbook_. FOSTER Plus Consortium. https://book.fosteropenscience.eu/
+***
+
+![roue][roue]
+
+Dans une enquête menée par l'éditeur PLOS, ce sont les **fichiers supplémentaires** qui sont les plus utilisés. Il convient toutefois de noter que les science humaines et sociales sont peu représentées dans les 1477 réponses reçues, qui se répartissent comme suit.
+
+* 20,9% médecine et sciences de la santé
+* 30,4% biologie et sciences de la vie
+* 9,7% sciences sociales
+
+> Sharing data as supplemental files alongside a research paper was the most common method for all career levels (67%), followed by deposition in a public repository (59%) and sharing privately on request (49%). Only 10% of respondents reported that they had never shared their research data – the largest proportion of whom (42%) work in Medicine and Health Science disciplines.
+
+![figure_partage_donnees](img/data_sharing_type.png)
+
+Source : Hrynaszkiewicz, I., Harney, J., & Cadwallader, L. (2021). A Survey of Researchers’ Needs and Priorities for Data Sharing. Data Science Journal, 20(1), 31. https://doi.org/10.5334/dsj-2021-031
+
+Notez que ces modes de partage ne sont pas exclusifs les uns des autres, des fichiers supplémentaires à un article peuvent être déposés dans un entrepôt de données, parfois par  la revue elle-même.
+
+Exemple :
+
+Article : Rousselot, N., Tombrey, T., Zongo, D., Mouillet, E., Joseph, J.-P., Gay, B., & Salmi, L. R. (2018). Development and pilot testing of a tool to assess evidence-based practice skills among French general practitioners. BMC Medical Education, 18(1), 254. https://doi.org/10.1186/s12909-018-1368-y
+
+Fichiers déposés dans Figshare : Rousselot, N., Tombrey, T., Drissa Zongo, Mouillet, E., Jean-Philippe Joseph, Gay, B., & Salmi, L. (2018). Development and pilot testing of a tool to assess evidence-based practice skills among French general practitioners [Data set]. In Figshare. https://doi.org/10.6084/M9.FIGSHARE.C.4297076.V1
+
 
 ### Enjeux
-![question][quest] Quizz 1 : freins et motivations au partage des données de recherche
+
+Les enjeux du partage des données sont multiples et variés, comme l'illustre la figure ci-dessous.
+
+![enjeux_image_Higgs](img/Higman_2017_enjeux.jpg)
+
+Source : Higman, R. (2017). Talking carrots and sticks for RDM at the #datastewards networking day, sharing the graphic on reasons to share we use in @UoMRDMService trainingpic.twitter.com/bMsj6h57RG [Tweet]. @RosieHLib. https://twitter.com/RosieHLib/status/936587668607160320
+
+![question][quest]
+
+Par lesquels de ces enjeux vous sentez-vous concerné actuellement, compte tenu de votre sujet de recherche, du degré d'avancement de votre thèse, etc.?
+
+Ces enjeux s'entendent également du point de vue du processus de publication.
+
+![enjeux_image2](img/fig_processus_publi_data.png)
+
+Source : Besançon, L., Peiffer-Smadja, N., Segalas, C., Jiang, H., Masuzzo, P., Smout, C., Billy, E., Deforet, M., & Leyrat, C. (2021). Open science saves lives : Lessons from the COVID-19 pandemic. BMC Medical Research Methodology, 21(1), 117. https://doi.org/10.1186/s12874-021-01304-y
+
+Fiche pratique en 1 page :
+
+Bracco, L., Bouchet-Moneret, F., & Jouneau, T. (2021). Pourquoi ouvrir ses données ? https://doi.org/10.5281/zenodo.5495217
+
 
 ## 2. Trouver des données de recherche avec les outils bibliographiques
 
@@ -85,7 +149,7 @@ On peut distinguer au moins 3 méthodes pour trouver des données de recherche. 
 
 En plus du _data availability statement_ (parfois non accessible sans abonnement à la revue), des outils intégrés aux bases de données bibliographiques permettent d'identifier les jeux de données **liés à des publications**.
 
-Dans la nouvelle interface de **[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?otool=ifruvsblib)**, il s'agit de l'attribut _Associated data_, disponible sous la forme d'un filtre à partir d'une liste de résultats.
+Dans la nouvelle interface de **[PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?otool=ifruvsblib)**, il s'agit de l'attribut _Associated data_, disponible sous la forme d'un filtre à partir d'une liste de résultats. Cet attribut filtre sur la présence dans l'article d'un lien vers une source de données comme ClinicalTrials.gov, GenBank, Figshare ou Dryad.
 
 Dans **[Scopus](http://docelec.u-bordeaux.fr/login?url=http://www.scopus.com)**, il s'agit de l'encart _Related Research Data_, accessible depuis la notice d'un article en particulier. Cette fonctionnalité est donc très limitée, puisqu'elle ne permet pas de sélectionner un ensemble d'articles ayant des données associées.
 
@@ -145,7 +209,6 @@ Exemple : liste de résultats pour la recherche sur le champ "Institution" conti
 
 <https://data.mendeley.com/research-data/?search=INSTITUTION(Bordeaux)>
 
-**/!\\**  En plus des biais habituels (saisies erronées, lacunaires ou absentes), si vous filtrez les résultats en choisissant la source "Apollo Cambridge", vous vous rendez compte que ce critère de recherche n'est pas entièrement fiable.
 
 ![roue][roue]
 
@@ -217,22 +280,16 @@ D'autres services indexent des données et peuvent être utiles pour identifier 
 
 ![exe][exe]
 
-A l'aide de l'une des deux méthodes présentées, cherchez des données pertinentes pour votre domaine de recherche.
+✒️ Voir [Fiche TP](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md)
 
-✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
-
-* Identifiant des données trouvées (DOI et URL si possible)
-* Sont-elles indépendantes ou liées à une publication (article, thèse, etc.)?
-* Sur quel site ces données sont-elles disponibles?
-* Avec quel outil de recherche les avez-vous trouvées?
-
-🕰️ Rendez-vous dans **15 minutes** pour une mise en commun.
+🕰️ Rendez-vous dans **10 minutes** pour une mise en commun.
 
 ## 3. Trouver des données de recherche grâce aux entrepôts de données
 
 Cette méthode rejoint les astuces 2, 4 et 8 des 11 astuces recensées ci-dessous.
 
-Gregory, K., Khalsa, S. J., Michener, W. K., Psomopoulos, F. E., Waard, A. de, & Wu, M. (2018). Eleven quick tips for finding research data. _PLOS Computational Biology_, _14_(4), e1006038. https://doi.org/10.1371/journal.pcbi.1006038
+Gregory, K., Khalsa, S. J., Michener, W. K., Psomopoulos, F. E., Waard, A. de, & Wu, M. (2018). Eleven quick tips for finding research data. PLOS Computational Biology, 14(4), e1006038. https://doi.org/10.1371/journal.pcbi.1006038
+
 
 
 > Tip 1: Think about the data you need and why you need them.
@@ -273,36 +330,38 @@ Voici quelques exemples de jeux de données déposées dans des entrepôts de do
 
 Quelles différences observez-vous entre eux?
 
-#### Exemple 1
+#### Exemple 1, agronomie et sciences sociales
+
+**Dépôt dans [CIRAD Dataverse](https://dataverse.cirad.fr)**
+
+Fok, M. (2021). Crédits formel et informel de trésorerie aux producteurs de coton au Bénin [Data set]. In CIRAD Dataverse. https://doi.org/10.18167/DVN1/NCNHJZ
+
+#### Exemple 2, archéologie
 
 **Dépôt dans [Zenodo](https://zenodo.org)**
 
-Reviers, N., Aline, R., & Vandekerckhove, R. (2017). Dutch Audio Description Corpus [Data set].  _Zenodo_. https://doi.org/10.5281/zenodo.1035175
+Lebrun, B., & Tribolo, C. (2020). Optically Stimulated Luminescence data from archaeological site Uzès (Gard, France) [Data set]. In Zenodo. https://doi.org/10.5281/zenodo.4061220
 
 
-#### Exemple 2 - spectrométrie
-
-**Dépôt dans [4TU.Centre for Research Data](https://data.4tu.nl/repository/)**
-
-Plomp, E., Von Holstein, I., Koornneef, J., & Davies, G. (2019). Neodymium and strontium isotope analysis of modern human dental enamel using Thermal Ionization Mass Spectrometry (TIMS) [Data set]. _4TU.Centre for Research Data_. https://doi.org/10.4121/uuid:d541a402-2701-47b2-ac6a-eaaa14c8c111
-
-#### Exemple 3 - psychologie
+#### Exemple 3, psychologie
 
 **Dépôt dans [UK Data Archive ReShare](https://reshare.ukdataservice.ac.uk)**
 
-Biggart, L. P. (2016). Emotional intelligence in social work [Data set].  _UK Data Archive ReShare_. https://doi.org/10.5255/UKDA-SN-852431
+Biggart, L. P. (2016). Emotional intelligence in social work [Data set]. In UK Data Service. https://doi.org/10.5255/UKDA-SN-852431
 
-#### Exemple 4 - linguistique
 
-**Dépôt dans [TROLLing](https://dataverse.no/dataverse/trolling) (TROLLing = The Tromsø Repository of Language and Linguistics)**
-
-Rainsford, T. (2020). Table of transcribed forms for : Syllable Structure and Prosodic Words in Old French [Data set]. _The Tromsø Repository of Language and Linguistics (TROLLing)_. https://doi.org/10.18710/xymxpc
-
-#### Exemple 5 - écologie
+#### Exemple 4, écologie
 
 **Dépôt dans [ACEAS Data Portal](http://aceas.tern.org.au/knb/) (ACEAS = Australian Centre for Ecological Analysis and Synthesis)**
 
-Haberle, S. et al. (2014). Weekly pollen count data for for the University of Tasmania, Hobart [Data set]. _ACEAS_. https://doi.org/10.4227/05/5344E9A41A124
+Haberle, S., Hopf, F., Tng, D., Johnston, F., & Bowman, D. (2014). Weekly pollen count data for for the University of Tasmania, Hobart. [Data set]. In ACEAS. https://doi.org/10.4227/05/5344E9A41A124
+
+
+#### Exemple 5, code informatique
+
+**Dépôt dans [Zenodo](https://zenodo.org)**
+
+Althaus, C. (2018). Analyses of Ebola virus disease outbreaks [Data set]. In Zenodo. https://doi.org/10.5281/zenodo.1285677
 
 
 ### Identifier un entrepôt de données spécialisé pertinent
@@ -340,16 +399,7 @@ De nombreux filtres permettent ensuite d'affiner les listes de résultats, en fo
 
 ![exe][exe]
 
-URL re3data : https://www.re3data.org/
-
-Effectuez une recherche dans re3data pour trouver un entrepôt de données spécialisé pertinent pour votre domaine de recherche.
-
-Confirmez votre choix en consultant quelques jeux de données déposés dans cet entrepôt.
-
-✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
-
-* Nom et URL de l'entrepôt de données
-* Si vous avez trouvé plusieurs entrepôts, pourquoi privilégiez-vous celui mentionné en réponse à la question précédente?
+✒️ Voir [Fiche TP](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md)
 
 🕰️ Rendez-vous dans **15 minutes** pour une mise en commun.
 
@@ -365,42 +415,21 @@ Nous allons aborder ici les astuces 1 et 6 de l'article "Eleven quick tips..." p
 
 [lire l'astuce 6 sur le site de PLOS](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006038#sec007)
 
-### Réutiliser des données?
-
-![question][quest] Quizz 2
 
 ### TP3, trouver et évaluer un jeu de données
 
-En reprenant ou en combinant une ou plusieurs des 3 méthodes de recherche de données présentées, il s'agit d'identifier des données ou des jeux de données que vous pourriez réutiliser pour l'un de vos projets de recherche.
+![exe][exe]
 
-**/!\\** Vous pouvez retenir des données non librement accessibles, pour lesquelles seule la description est librement accessible.
+✒️ Voir [Fiche TP](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md)
 
-Une fois identifié un jeu de données qui vous semble pertinent, considérez les points suivants.
-
-* Dans quel objectif réutiliseriez-vous ce jeu de données?
-* Les **métadonnées** sont-elles suffisantes?
-* La **documentation** (fichier README, etc.) vous paraît-elle suffisante?
-* Qu'en est-il de la licence de publication? Les conditions de **réutilisation** sont-elles claires?
-* Sauriez-vous comment **citer** ce jeu de données?
-
-👉 Allez plus loin : calculez le score FAIR (Findable, Accessible, Interoperable, Reusable) de ce jeu de données avec le service en ligne suivant.
-
-Australian Research Data Commons. (s. d.). _FAIR self-assessment tool_. Australian Research Data Commons. https://ardc.edu.au/resources/working-with-data/fair-data/fair-self-assessment-tool/
-
-**/!\\** Concentrez-vous sur les lettres F, A et R
-
-✒️ Reportez le résultat de vos recherches dans la conversation Zoom en indiquant les informations suivantes.
-
-* Identifiant des données trouvées (DOI et URL si possible)
-* Appréciation concernant le caractère réutilisable ou FAIR : au minimum sous la forme `-1 ` / `+1 ` - 👎 / 👍
-
-🕰️ Rendez-vous dans **30 minutes** pour une mise en commun.
+🕰️ Rendez-vous dans **20 minutes** pour une mise en commun.
 
 ### Focus sur les principes FAIR
 
-![image_fair](img/FAIR_data_principles.jpg)
 
-Source : SangyaPundir. (2016). _FAIR guiding principles for data resources_. https://commons.wikimedia.org/wiki/File:FAIR_data_principles.jpg [CC BY-SA]
+![cartoon_FAIR_foster](img/FAIRdataprinciples_foster.png)
+
+Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). Open Science Training Handbook. FOSTER Plus Consortium. https://book.fosteropenscience.eu/
 
 
 Les principes FAIR visent à assurer que les donnnées sont partagées d'une manière qui permette et améliore leur réutilisation, à la fois par des humains et par des machines. A chaque principe sont associées des caractéristiques qui en précisent et spécifient l'application.
@@ -445,24 +474,28 @@ Les principes FAIR ont été développés initialement au sein [du groupement FO
 >
 >R1.3. (meta)data meet domain-relevant community standards
 
-Source : Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Santos, L. B. da S., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. _Scientific Data_, _3_, sdata201618. https://doi.org/10.1038/sdata.2016.18
+Source : Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Santos, L. B. da S., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, sdata201618. https://doi.org/10.1038/sdata.2016.18
 
 
 #### Comprendre et appliquer les principes FAIR
 
-![cartoon_FAIR_foster](img/FAIRdataprinciples_foster.png)
+L'infographie interactive ci-dessous vous permet d'explorer chacun des principes FAIR.
 
-Source: Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). _Open Science Training Handbook_. FOSTER Plus Consortium. https://book.fosteropenscience.eu/
+Urfist Méditerranée. (2019). Les principes FAIR [DoRANum]. https://doi.org/10.13143/z7s6-ed26
+
+_Apercçu statique de l'infographie FAIR_
+
+![FAIR_infographie](img/FAIR_urfist_med.PNG)
 
 
 Le site de l’INRAE consacre des pages détaillées et en français aux principes FAIR, y compris des recommandations et des questions à se poser lors de la rédaction d'un plan de gestion de données. Ces pages sont accessibles à partir de la page suivante.
 
-IST-Données de la Recherche. (2018, août). _Produire des données FAIR_. Datapartage. https://www6.inra.fr/datapartage/Produire-des-donnees-FAIR
-
+IST-Données de la Recherche. (2018, août). Produire des données FAIR. Datapartage. https://datapartage.inrae.fr/Produire-des-donnees-FAIR
 
 Le Fonds national suisse de la recherche scientifique propose sous la forme d'un tableau récapitulatif une analyse pratique en 3 rubriques : _In other words_, _Researcher’s responsibility_, _Requirements to be fulfilled by the repository_.
 
-Fonds national suisse de la recherche scientifique. (2017). _Explanation of the FAIR data principles_. http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf
+Fonds national suisse de la recherche scientifique. (2017). Explanation of the FAIR data principles. http://www.snf.ch/SiteCollectionDocuments/FAIR_principles_translation_SNSF_logo.pdf
+
 
 #### Données FAIR et ouvertes?
 
@@ -474,7 +507,7 @@ Des données peuvent être **ouvertes mais non FAIR**, si elles sont mises à di
 
 ## 5. Citer des données de recherche
 
-Cela correspond à l'un des 3 éléments de l'astuce 11 de l'article "Eleven quick tips..." cité précédemment.
+Cela correspond à une partie de l'astuce 11 de l'article "Eleven quick tips..." cité précédemment.
 
 > Tip 11: Give back (cite and share data).
 
@@ -486,11 +519,11 @@ De plus en plus d'éditeurs incitent les auteurs à citer les jeux de données a
 
 _Scientific Data_ requiert ainsi que les données soient citées dans la biliographie principale des articles ; la politique de citation des données de cettet revue est détaillée dans l'éditorial suivant de 2019.
 
-Data citation needed. (2019). _Scientific Data_, _6_(1), 27. https://doi.org/10.1038/s41597-019-0026-5
+Data citation needed. (2019). Scientific Data, 6(1), 27. https://doi.org/10.1038/s41597-019-0026-5
 
 Exemple de données citées dans la bibliographie principale, référence n° 21 :
 
-Power, A. M., Merder, J., Browne, P., Freund, J. A., Fullbrook, L., Graham, C., Kennedy, R. J., O’Carroll, J. P. J., Wieczorek, A. M., & Johnson, M. P. (2019). Field-recorded data on habitat, density, growth and movement of Nephrops norvegicus. _Scientific Data_, _6_(1), 7. https://doi.org/10.1038/s41597-019-0013-x
+Power, A. M., Merder, J., Browne, P., Freund, J. A., Fullbrook, L., Graham, C., Kennedy, R. J., O’Carroll, J. P. J., Wieczorek, A. M., & Johnson, M. P. (2019). Field-recorded data on habitat, density, growth and movement of Nephrops norvegicus. Scientific Data, 6(1), 7. https://doi.org/10.1038/s41597-019-0013-x
 
 ![citation_donnees_biblio](img/citation_donnees_biblio.png)
 
@@ -529,63 +562,99 @@ L'université de Manchester propose plusieurs exemples de formulation pour prend
 * absence de création de données nouvelles,
 * données disponibles de façon ouverte.
 
-The University of Manchester Library. (s. d.). _Data access statements_. The University of Manchester Library. https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/
+The University of Manchester Library. Data access statements. https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/
 
 Voir aussi les exemples par discipline mis à disposition par l'université de Bristol.
 
-University of Bristol. (s. d.). _Sharing research data_. University of Bristol. http://www.bristol.ac.uk/staff/researchers/data/sharing-research-data/
+University of Bristol. Sharing research data. http://www.bristol.ac.uk/staff/researchers/data/sharing-research-data/
+
 
 L'ordre et la nature des informations à mentionner peuvent varier en fonction des éditeurs, voir par exemple les recommandations de Springer Nature, incluant des liens vers des exemples dans des articles publiés.
 
-Springer Nature. (s. d.). _Data availability statements_. Springer Nature. http://www.springernature.com/gp/authors/research-data-policy/data-availability-statements/12330880
+Springer Nature. Data availability statements. http://www.springernature.com/gp/authors/research-data-policy/data-availability-statements/12330880
 
 ## 6. Politiques de données des éditeurs et des organismes de financement de la recherche
 
 ![brain][brain]
 
+
 Nous l'avons mentionné plus haut de façon éparse, de plus en plus d'éditeurs scientifiques et d'organismes de financement de la recherche adoptent des politiques de données, le partage des données étant l'une des composantes de politiques couvrant un spectre plus large d'actions et de recommandations.
 
 ### Editeurs
 
+
 PLOS a été l'un des premiers éditeurs à définir une politique de données en 2014, obligeant notamment au dépôt en accès ouvert des données sous-jacentes aux articles.
 
-L'**accès aux données sous-jacentes** aux articles et la **citation des données** constituent les deux points les plus évidents concernant le partage des données. Une politique de données s'entend toutefois plus largement et peut recouvrir bien plus d'aspects, comme le montre le tableau ci-dessous, qui représentent 14 caractéristiques, réparties en 6 niveaux de politique.
+L'**accès aux données sous-jacentes** aux articles et la **citation des données** constituent les deux points les plus évidents concernant le partage des données.
+
+Une politique de données et plus largement  s'entend toutefois plus largement et peut recouvrir bien plus d'aspects, comme le montre le tableau ci-dessous, qui représentent 14 caractéristiques, réparties en 6 niveaux de politique.
 
 ![fig1_res_data_policy_framework](img/dsj-19-1086-g1.png)
 
-Source : Hrynaszkiewicz, I., Simons, N., Hussain, A., Grant, R., & Goudie, S. (2020). Developing a Research Data Policy Framework for All Journals and Publishers. _Data Science Journal_, _19_(1), 5. https://doi.org/10.5334/dsj-2020-005
+Source : Hrynaszkiewicz, I., Simons, N., Hussain, A., Grant, R., & Goudie, S. (2020). Developing a Research Data Policy Framework for All Journals and Publishers. Data Science Journal, 19(1), 5. https://doi.org/10.5334/dsj-2020-005
 
-La plupart des grands éditeurs internationaux demandent ainsi à chaque revue qu'ils publient de choisir l'une des politiques définies, organisées selon un accroissement progressif à la fois des caractéristiques prises en compte et du niveau de recommandation ou d'obligation.
+Si on considère plus largement le processus de publication, les données ne sont elles-mêmes qu'une constituante d'une démarche globale d'ouverture et de transparence. L'initiative **Transparency and Openness Promotion (TOP)** s'inscrit dans cette perspective, comme l'illustre le tableau synthétique des critères pris en compte et leur degré d'application.
 
-* Wiley depuis 2017 : 3 politiques possibles
+![TOP_tableau_synthétique](img/TOP_table.png)
 
-Voir : STM Publishing News. (2017, septembre 14). _Wiley announces new Data Sharing and Citation policies to improve transparency in research_. STM Publishing News. http://www.stm-publishing.com/wiley-announces-new-data-sharing-and-citation-policies-to-improve-transparency-in-research/
+[Afficher le tableau sur le site TOP](https://osf.io/2cz65/)
 
-* Springer Nature depuis 2016 : 4 politiques possibles
-* Taylor & Francis depuis 2018 : 5 politiques possibles
+Notez que cette démarche n'est pas propre à un domaine disciplinaire. Les 16 revues recensées par TOP comme atteignant le degré 3 relèvent ainsi de domaines différents.
 
-Voir : Jones, L., Grant, R., & Hrynaszkiewicz, I. (2019). Implementing publisher policies that inform, support and encourage authors to share data : Two case studies. _Insights_, _32_(1), 11. https://doi.org/10.1629/uksg.463
+Voir [la rubrique "Data Reproducibility Policies" sur le site de TOP](https://osf.io/kgnva/wiki/home/#Data_Reproducibility_Policies_12) :
 
+
+> The following **16** journals use shared data and code to reproduce the computational findings reported in articles prior to publication. **This represents level 3 of the TOP Guidelines for Data, Materials, and Code.**
+>
+> - The nine journals of the [American Economic Association][5]
+>    - Author instructions and guidance available [here][6]  
+> - [American Journal of Political Science][7]
+> - [Biostatistics][8]
+> - [Journal of Experimental Political Science][9]
+> - [Journal of Peace Research][10]
+> - [Meta-Psychology][11]
+> - [Organic Syntheses][12]
+> - [Quarterly Journal of Political Science][13]
+
+[5]: https://www.aeaweb.org/journals/data
+[6]: https://aeadataeditor.github.io/aea-de-guidance/
+[7]: https://ajps.org/ajps-replication-policy/
+[8]: https://academic.oup.com/biostatistics/pages/General_Instructions
+[9]: https://www.cambridge.org/core/journals/journal-of-experimental-political-science/information/instructions-contributors
+[10]: https://www.prio.org/JPR/Datasets/
+[11]: https://open.lnu.se/index.php/metapsychology/about
+[12]: http://www.orgsyn.org/instructions.aspx
+[13]: http://www.nowpublishers.com/Journal/AuthorInstructions/QJPS
+
+TOP attribue un **"TOP factor"**  aux revues, en se fondant sur le tableau présenté ci-dessus. En 2021, plus de 900 revues ont reçu un "TOP factor".
+
+![question][quest]
+
+ * Retrouvez-vous un titre que vous connaissez dans la liste des revues éavluées?
+ * Son score vous surprend-il? Pourquoi?
+
+[Liste des revues ayant un TOP factor](https://osf.io/qatkz/)
+
+[Présentation du TOP factor 2021 sur le site de TOP](https://osf.io/jn3we/)
 
 ### Organismes de financement
 
-Les 14 caractéristiques définies pour les politiques des éditeurs peuvent quasiment toutes s'appliquer également pour les politiques des organismes de financement.
+Deux aspects constituent des éléments centraux dans la politique des organismes de financement.
 
-Deux aspects sont toutefois plus spécifiques aux organismes de financement, et peuvent constituer des éléments centraux de leur politique.
-
-* La recherche de la conformité aux **principes FAIR**  ; l'approche _"as open as possible, as close as necessary"_ de la Commission Européenne est ainsi reprise par l'ANR.
+* La recherche de la conformité aux **principes FAIR**  ; l'approche _"as open as possible, as close as necessary"_ de l'Union européenne est ainsi reprise par l'ANR.
 * La mise en oeuvre de bonnes pratiques de gestion des données, décrites dans un **plan de gestion de données** (DMP - data management plan).
 
-Concernant la politique de libre accès de Horizon 2020 et les perspectives pour le prochain programme cadre, voir :
+Pour une présentation générale de la politique de science ouverte de l'Union européenne, voir le livret ci-dessous, duquel est extrait la figure concernant les impacts et résultats attendus.
 
-Hermans, E. (2019, octobre 22). _Horizon 2020 Open Science Policies and beyond_. OpenAIRE webinar. https://www.slideshare.net/OpenAIRE_eu/horizon-2020-open-science-policies-and-beyond-with-emilie-hermans-openaire
+Union européenne. (2021). Horizon Europe, science ouverte : Partage précoce des connaissances et des données,  et collaboration ouverte. Office des publications de l’Union européenne. https://doi.org/10.2777/838069
 
-La politique de science ouverte de l'ANR est détaillée sur [la page "La science ouverte"](https://anr.fr/fr/lanr-et-la-recherche/engagements-et-valeurs/la-science-ouverte/) de son site internet.
+![enjeux politique science ouverte UE](img/UE_scouv_impacts.PNG)
 
-_Nota Bene_ : les organismes de financement privés (les fondations) ont également des politiques de libre accès qui peuvent concerner les données ; voir pour les fondations aux Etats-Unis :
+Les obligations et recommandations concernant la gestion des données de recherche sont détaillées à la diapositive 8 de la présentation suivante.
 
-Carnegie Mellon University Libraries. (s. d.). _Public access mandates & policies : US private funders_. Carnegie Mellon University Libraries. https://www.library.cmu.edu/datapub/sc/publicaccess/policies/usprivatefunders
+López de San Román, A. (2021, avril 12). Open Science in Horizon Europe. LERU CE7 Seminar. https://doi.org/10.5281/zenodo.4681073
 
+La politique de science ouverte de **l'ANR** est détaillée sur [la page "La science ouverte" de son site internet](https://anr.fr/fr/lanr-et-la-recherche/engagements-et-valeurs/la-science-ouverte/) .
 
 ## 7. Conclusion
 
@@ -594,18 +663,6 @@ Reprenons la conclusion de l'article
 Gregory, K., Khalsa, S. J., Michener, W. K., Psomopoulos, F. E., Waard, A. de, & Wu, M. (2018). Eleven quick tips for finding research data. _PLOS Computational Biology_, _14_(4), e1006038. https://doi.org/10.1371/journal.pcbi.1006038
 
 > Regardless of whether you are acting as a data seeker or a data creator, remember that ‘data discovery and reuse are most easily accomplished when: (1) data are logically and clearly organized; (2) data quality is assured; (3) data are preserved and discoverable via an open data repository; (4) data are accompanied by comprehensive metadata; (5) algorithms and code used to create data products are readily available; (6) data products can be uniquely identified and associated with specific data originator(s); and (7) the data originator(s) or data repository have provided recommendations for citation of the data product(s)’
-
-### Rappel des enjeux, en image
-
-![enjeux](img/Higman_2017_Talking_carrots_and.jpg)
-
-Source : Higman, R. (2017). Talking carrots and sticks for RDM at the #datastewards networking day, sharing the graphic on reasons to share we use in @UoMRDMService trainingpic.twitter.com/bMsj6h57RG [Tweet]. _@RosieHLib_. https://twitter.com/RosieHLib/status/936587668607160320
-
-### La grande image de la science ouverte
-
-![os_taxonomy](img/os_taxonomy.png)
-
-Source : Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P. L., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). _Open Science Training Handbook_. FOSTER Plus Consortium. https://book.fosteropenscience.eu/
 
 
 [fleche]: img/foster_icone_arrow.png
