@@ -4,11 +4,15 @@ Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des do
 
 ## Cours
 * [COURS - au format HTML](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) 
-* [COURS- au format PDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.pdf)
+* [COURS - au format PDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.pdf)
 
 
 ## Exercices
 * [TP - énoncé au format HMTL](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.md) 
+* [TP - énoncé au format PDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_TP.pdf) 
+* [Questionnaire FAIR au format PDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_FAIR_QUEST.pdf)
+* [Corrigé du questionnaire FAIR pour 2 jeux de données - format PDF](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_FAIR_COR.pdf)
+
 
 ## Descriptif de la formation
 
