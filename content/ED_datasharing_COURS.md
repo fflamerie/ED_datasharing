@@ -126,9 +126,13 @@ Source : Higman, R. (2017). Talking carrots and sticks for RDM at the #datastewa
 
 Par lesquels de ces enjeux vous sentez-vous concerné actuellement, compte tenu de votre sujet de recherche, du degré d'avancement de votre thèse, etc.?
 
+***
+
 Ces enjeux s'entendent également du point de vue du processus de publication.
 
 ![enjeux_image2](img/fig_processus_publi_data.png)
+
+_Fig 4. A summary of our findings and proposed solutions_
 
 Source : Besançon, L., Peiffer-Smadja, N., Segalas, C., Jiang, H., Masuzzo, P., Smout, C., Billy, E., Deforet, M., & Leyrat, C. (2021). Open science saves lives : Lessons from the COVID-19 pandemic. BMC Medical Research Methodology, 21(1), 117. https://doi.org/10.1186/s12874-021-01304-y
 
