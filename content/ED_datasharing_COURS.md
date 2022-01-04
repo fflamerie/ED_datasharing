@@ -595,7 +595,7 @@ Source : Hrynaszkiewicz, I., Simons, N., Hussain, A., Grant, R., & Goudie, S. (2
 
 Si on considère plus largement le processus de publication, les données ne sont elles-mêmes qu'une constituante d'une démarche globale d'ouverture et de transparence. L'initiative **Transparency and Openness Promotion (TOP)** s'inscrit dans cette perspective, comme l'illustre le tableau synthétique des critères pris en compte et leur degré d'application.
 
-![TOP_tableau_synthétique](img/TOP_table.png)
+![TOP_tableau_synthétique](img/TOP_table.PNG)
 
 [Afficher le tableau sur le site TOP](https://osf.io/2cz65/)
 
