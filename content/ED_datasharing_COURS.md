@@ -73,7 +73,7 @@ Afficher cet exemple en ligne : https://doi.org/10.1186/s12888-020-03010-3
 
 ![image1_entrepot_donnees](img/dryad_dataset.png)
 
-Afficher cet exemple en ligne : https://doi.org/10.5255/UKDA-SN-852431
+Afficher cet exemple en ligne : https://doi.org/10.5061/dryad.qz612jm91
 
 ![question][quest]
 
@@ -487,7 +487,7 @@ L'infographie interactive ci-dessous vous permet d'explorer chacun des principes
 
 Urfist Méditerranée. (2019). Les principes FAIR [DoRANum]. https://doi.org/10.13143/z7s6-ed26
 
-_Apercçu statique de l'infographie FAIR_
+_Aperçu statique de l'infographie FAIR_
 
 ![FAIR_infographie](img/FAIR_urfist_med.PNG)
 
@@ -545,6 +545,8 @@ Power, A. M., Merder, J., Browne, P., Freund, J. A., Fullbrook, L., Graham, C., 
 ##### Avec l'outil Citation Formatter fourni par DataCite
 
 Ce service en ligne est accessible à l'adresse : https://citation.crosscite.org/
+
+**⚠️ A vérifier, non fonctionnel le 2022-01-07**
 
 A partir d'un DOI, puis du choix d'un style bibliographique et de la langue, il génère automatiquement une citation correctement mise en forme.
 
