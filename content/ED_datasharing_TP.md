@@ -61,6 +61,10 @@ Une fois sélectionné le jeu de données que vous allez évaluer, considérez l
 * Identifiant des données trouvées (DOI et URL si possible)
 * Appréciation concernant le caractère réutilisable ou FAIR : au minimum sous la forme `-1 ` / `+1 ` - 👎 / 👍
 
+🚧 Vous préférez travailler sur un de vos jeux de données en cours de préparation?
+
+Utilisez plutôt le questionnaire suivant (en français):  Data Archiving and Networked Services. Outil FAIR-Aware. DoRANum. https://doi.org/10.13143/ege0-nw05
+
 🕰️ Rendez-vous dans **20 minutes** pour une mise en commun.
 
 Un corrigé du questionnaire FAIR est disponible pour les 2 jeux de données proposés en exemple dans l'énoncé de ce TP : [corrigé au format PDF du questionnaire FAIR pour 2 jeux de données](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_FAIR_COR.pdf).
