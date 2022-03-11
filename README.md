@@ -1,6 +1,6 @@
-# _Data sharing_ : trouver, réutiliser et citer des données de recherche
+# _Data sharing_ : rechercher et partager des données de recherche
 
-Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des données de recherche" à destination des doctorants de l'université de Bordeaux - durée 3h.
+Matériel de la formation "_Data sharing_ : rechercher et partager des données de recherche" à destination de doctorants et chercheurs de l'université de Bordeaux - durée 3h.
 
 ## Cours
 * [COURS - au format HTML](https://github.com/fflamerie/ED_datasharing/blob/master/content/ED_datasharing_COURS.md) 
@@ -22,7 +22,6 @@ Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des do
 * Identifier et savoir utiliser les outils de recherche spécifiques aux données de recherche
 * Trouver des données pertinentes pour son thème de recherche
 * Evaluer le caractère réutilisable des jeux de données disponibles
-* Savoir créditer correctement les jeux de données
 
 
 ### Programme
@@ -34,8 +33,10 @@ Matériel de la formation "_Data sharing_ : trouver, réutiliser et citer des do
   * entrepôts de données généralistes tels que Zenodo, Dryad ou Figshare,
   * entrepôts de données spécialisés tels que Harvard Dataverse ou 4TU.ResearchData.
 * Identifier des jeux de données pertinents pour son thème de recherche et évaluer dans quelle mesure ils sont faciles à trouver, accessibles, interopérables et réutilisables, c’est-à-dire conformes aux principes FAIR
-* Citer des données de recherche : contextes et modalités pratiques de la citation des données de recherche, du référencement en bibliographie à la rédaction d’un data availability statement
 * Identifier et comprendre les politiques des éditeurs de revue et des organismes de financement en matière de diffusion des données de recherche
+:zap: Bonus : citer des données de recherche : contextes et modalités pratiques de la citation des données de recherche, du référencement en bibliographie à la rédaction d’un data availability statement
+
+
 
 </br>
 
