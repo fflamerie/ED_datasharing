@@ -1,4 +1,4 @@
-# _Data sharing_ : trouver, réutiliser et citer des données de recherche : COURS
+# _Data sharing_ : rechercher et partager des données de recherche : COURS
 
 ## Sommaire
 
@@ -6,13 +6,14 @@
 <!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
 
 - [Sommaire](#sommaire)   
+- [0. Tour de table](#0-tour-de-table)   
 - [1. Introduction](#1-introduction)   
 - [2. Trouver des données de recherche avec les outils bibliographiques](#2-trouver-des-données-de-recherche-avec-les-outils-bibliographiques)   
 - [3. Trouver des données de recherche grâce aux entrepôts de données](#3-trouver-des-données-de-recherche-grâce-aux-entrepôts-de-données)   
 - [4. Trouver des données de recherche pour les réutiliser](#4-trouver-des-données-de-recherche-pour-les-réutiliser)   
-- [5. Citer des données de recherche](#5-citer-des-données-de-recherche)   
-- [6. Politiques de données des éditeurs et des organismes de financement de la recherche](#6-politiques-de-données-des-éditeurs-et-des-organismes-de-financement-de-la-recherche)   
-- [7. Conclusion](#7-conclusion)   
+- [5. Politiques de données des éditeurs et des organismes de financement de la recherche](#5-politiques-de-données-des-éditeurs-et-des-organismes-de-financement-de-la-recherche)   
+- [6. Conclusion](#6-conclusion)   
+- [Bonus : Citer des données de recherche](#bonus-citer-des-données-de-recherche)   
 
 <!-- /MDTOC -->
 
@@ -509,77 +510,7 @@ Ainsi des données peuvent être **FAIR mais non ouvertes**, si elles appliquent
 
 Des données peuvent être **ouvertes mais non FAIR**, si elles sont mises à disposition publiquement, mais sont dépourvues d’une documentation suffisante ou d’une licence précisant clairement les conditions de réutilisation.
 
-## 5. Citer des données de recherche
-
-Cela correspond à une partie de l'astuce 11 de l'article "Eleven quick tips..." cité précédemment.
-
-> Tip 11: Give back (cite and share data).
-
-[lire l'astuce 11 sur le site de PLOS](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006038#sec007)
-
-### Citation en bibliographie
-
-De plus en plus d'éditeurs incitent les auteurs à citer les jeux de données au même titre que les articles dans leur bibliographie, dans une rubrique dédiée ou dans la bibliographie principale.
-
-_Scientific Data_ requiert ainsi que les données soient citées dans la biliographie principale des articles ; la politique de citation des données de cettet revue est détaillée dans l'éditorial suivant de 2019.
-
-Data citation needed. (2019). Scientific Data, 6(1), 27. https://doi.org/10.1038/s41597-019-0026-5
-
-Exemple de données citées dans la bibliographie principale, référence n° 21 :
-
-Power, A. M., Merder, J., Browne, P., Freund, J. A., Fullbrook, L., Graham, C., Kennedy, R. J., O’Carroll, J. P. J., Wieczorek, A. M., & Johnson, M. P. (2019). Field-recorded data on habitat, density, growth and movement of Nephrops norvegicus. Scientific Data, 6(1), 7. https://doi.org/10.1038/s41597-019-0013-x
-
-![citation_donnees_biblio](img/citation_donnees_biblio.png)
-
-#### Comment citer un jeu de données?
-
-##### Avec un logiciel de gestion bibliographique, Zotero
-
- * Enregistrer les jeux de données sous le type de document "Article de revue"
- * Spécifier : `type: dataset` dans le champ `Extra`
-
-![zotero_dataset](img/zotero_extra_dataset.png)
-
- * Choisir un style bibliographique qui prend en charge le type de document "Dataset", par exemple [APA](http://owl.english.purdue.edu/owl/resource/560/01/) ou Vancouver
-
-##### Avec l'outil Citation Formatter fourni par DataCite
-
-Ce service en ligne est accessible à l'adresse : https://citation.crosscite.org/
-
-**⚠️ A vérifier, non fonctionnel le 2022-01-07**
-
-A partir d'un DOI, puis du choix d'un style bibliographique et de la langue, il génère automatiquement une citation correctement mise en forme.
-
-### Data availability statement
-
-La bibliographie ou la liste des références citées n'est pas la seule rubrique d'un article dans laquelle des données de recherche peuvent ou doivent être mentionnées.
-
-Le _data availability statement_ ou _data access statement_ décrit où les données sous-jacentes à l'article peuvent être trouvées, et sous quelles conditions elles sont accessibles.
-
-L'université de Manchester propose plusieurs exemples de formulation pour prendre en compte les cas suivants :
-
-* données en accès ouvert,
-* analyse secondaire de données existantes,
-* contraintes éthiques,
-* contraintes commerciales,
-* contraintes de coût,
-* données originales dans un format propriétaire,
-* données non numériques,
-* absence de création de données nouvelles,
-* données disponibles de façon ouverte.
-
-The University of Manchester Library. Data access statements. https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/
-
-Voir aussi les exemples par discipline mis à disposition par l'université de Bristol.
-
-University of Bristol. Sharing research data. http://www.bristol.ac.uk/staff/researchers/data/sharing-research-data/
-
-
-L'ordre et la nature des informations à mentionner peuvent varier en fonction des éditeurs, voir par exemple les recommandations de Springer Nature, incluant des liens vers des exemples dans des articles publiés.
-
-Springer Nature. Data availability statements. http://www.springernature.com/gp/authors/research-data-policy/data-availability-statements/12330880
-
-## 6. Politiques de données des éditeurs et des organismes de financement de la recherche
+## 5. Politiques de données des éditeurs et des organismes de financement de la recherche
 
 ![brain][brain]
 
@@ -662,13 +593,81 @@ López de San Román, A. (2021, avril 12). Open Science in Horizon Europe. LERU 
 
 La politique de science ouverte de **l'ANR** est détaillée sur [la page "La science ouverte" de son site internet](https://anr.fr/fr/lanr-et-la-recherche/engagements-et-valeurs/la-science-ouverte/) .
 
-## 7. Conclusion
+## 6. Conclusion
 
 Reprenons la conclusion de l'article
 
 Gregory, K., Khalsa, S. J., Michener, W. K., Psomopoulos, F. E., Waard, A. de, & Wu, M. (2018). Eleven quick tips for finding research data. _PLOS Computational Biology_, _14_(4), e1006038. https://doi.org/10.1371/journal.pcbi.1006038
 
 > Regardless of whether you are acting as a data seeker or a data creator, remember that ‘data discovery and reuse are most easily accomplished when: (1) data are logically and clearly organized; (2) data quality is assured; (3) data are preserved and discoverable via an open data repository; (4) data are accompanied by comprehensive metadata; (5) algorithms and code used to create data products are readily available; (6) data products can be uniquely identified and associated with specific data originator(s); and (7) the data originator(s) or data repository have provided recommendations for citation of the data product(s)’
+
+##  Bonus : Citer des données de recherche
+
+Cela correspond à une partie de l'astuce 11 de l'article "Eleven quick tips..." cité précédemment.
+
+> Tip 11: Give back (cite and share data).
+
+[lire l'astuce 11 sur le site de PLOS](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006038#sec007)
+
+### Citation en bibliographie
+
+De plus en plus d'éditeurs incitent les auteurs à citer les jeux de données au même titre que les articles dans leur bibliographie, dans une rubrique dédiée ou dans la bibliographie principale.
+
+_Scientific Data_ requiert ainsi que les données soient citées dans la biliographie principale des articles ; la politique de citation des données de cettet revue est détaillée dans l'éditorial suivant de 2019.
+
+Data citation needed. (2019). Scientific Data, 6(1), 27. https://doi.org/10.1038/s41597-019-0026-5
+
+Exemple de données citées dans la bibliographie principale, référence n° 21 :
+
+Power, A. M., Merder, J., Browne, P., Freund, J. A., Fullbrook, L., Graham, C., Kennedy, R. J., O’Carroll, J. P. J., Wieczorek, A. M., & Johnson, M. P. (2019). Field-recorded data on habitat, density, growth and movement of Nephrops norvegicus. Scientific Data, 6(1), 7. https://doi.org/10.1038/s41597-019-0013-x
+
+![citation_donnees_biblio](img/citation_donnees_biblio.png)
+
+#### Comment citer un jeu de données?
+
+##### Avec un logiciel de gestion bibliographique, Zotero
+
+ * Enregistrer les jeux de données sous le type de document "Article de revue"
+ * Spécifier : `type: dataset` dans le champ `Extra`
+
+![zotero_dataset](img/zotero_extra_dataset.png)
+
+ * Choisir un style bibliographique qui prend en charge le type de document "Dataset", par exemple [APA](http://owl.english.purdue.edu/owl/resource/560/01/) ou Vancouver
+
+##### Avec l'outil Citation Formatter fourni par DataCite
+
+Ce service en ligne est accessible à l'adresse : https://citation.crosscite.org/
+
+A partir d'un DOI, puis du choix d'un style bibliographique et de la langue, il génère automatiquement une citation correctement mise en forme.
+
+### Data availability statement
+
+La bibliographie ou la liste des références citées n'est pas la seule rubrique d'un article dans laquelle des données de recherche peuvent ou doivent être mentionnées.
+
+Le _data availability statement_ ou _data access statement_ décrit où les données sous-jacentes à l'article peuvent être trouvées, et sous quelles conditions elles sont accessibles.
+
+L'université de Manchester propose plusieurs exemples de formulation pour prendre en compte les cas suivants :
+
+* données en accès ouvert,
+* analyse secondaire de données existantes,
+* contraintes éthiques,
+* contraintes commerciales,
+* contraintes de coût,
+* données originales dans un format propriétaire,
+* données non numériques,
+* absence de création de données nouvelles,
+* données disponibles de façon ouverte.
+
+The University of Manchester Library. Data access statements. https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/
+
+Voir aussi les exemples par discipline mis à disposition par l'université de Bristol.
+
+University of Bristol. Sharing research data. http://www.bristol.ac.uk/staff/researchers/data/sharing-research-data/
+
+
+L'ordre et la nature des informations à mentionner peuvent varier en fonction des éditeurs, voir par exemple les recommandations de Springer Nature, incluant des liens vers des exemples dans des articles publiés.
+
+Springer Nature. Data availability statements. http://www.springernature.com/gp/authors/research-data-policy/data-availability-statements/12330880
 
 
 [fleche]: img/foster_icone_arrow.png

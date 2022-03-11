@@ -1,4 +1,12 @@
-# _Data sharing_ : trouver, réutiliser et citer des données de recherche : TP
+# _Data sharing_ : rechercher et partager des données de recherche : TP
+
+<!-- MDTOC maxdepth:1 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [TP1, trouver des données avec les bases de données bibliographiques et les moteurs de recherche spécialisés](#tp1-trouver-des-données-avec-les-bases-de-données-bibliographiques-et-les-moteurs-de-recherche-spécialisés)   
+- [TP2, trouver un entrepôt de données spécialisé avec re3data](#tp2-trouver-un-entrepôt-de-données-spécialisé-avec-re3data)   
+- [TP3, trouver et évaluer un jeu de données](#tp3-trouver-et-évaluer-un-jeu-de-données)   
+
+<!-- /MDTOC -->
 
 ## TP1, trouver des données avec les bases de données bibliographiques et les moteurs de recherche spécialisés
 
