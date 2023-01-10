@@ -34,7 +34,8 @@ Matériel de la formation "_Data sharing_ : rechercher et partager des données 
   * entrepôts de données spécialisés tels que Harvard Dataverse ou 4TU.ResearchData.
 * Identifier des jeux de données pertinents pour son thème de recherche et évaluer dans quelle mesure ils sont faciles à trouver, accessibles, interopérables et réutilisables, c’est-à-dire conformes aux principes FAIR
 * Identifier et comprendre les politiques des éditeurs de revue et des organismes de financement en matière de diffusion des données de recherche
-:zap: Bonus : citer des données de recherche : contextes et modalités pratiques de la citation des données de recherche, du référencement en bibliographie à la rédaction d’un data availability statement
+
+:zap: Bonus : citer des données de recherche : contextes et modalités pratiques de la citation des données de recherche, du référencement en bibliographie à la rédaction d’un _data availability statement_
 
 
 
